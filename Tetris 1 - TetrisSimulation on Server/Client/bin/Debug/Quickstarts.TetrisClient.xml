@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Quickstarts.TetrisClient</name>
+    </assembly>
+    <members>
+        <member name="M:Quickstarts.TetrisClient.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:Quickstarts.TetrisClient.NamespaceDoc">
+            <summary>
+            The <b>TetrisClient</b> namespace contains classes which implement a UA Tetris Client.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="T:Quickstarts.TetrisClient.MainForm">
+            <summary>
+            The main form for a simple Tetris Client application.
+            </summary>
+        </member>
+        <member name="F:Quickstarts.TetrisClient.MainForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.#ctor">
+            <summary>
+            Creates an empty form.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.#ctor(Opc.Ua.ApplicationConfiguration)">
+            <summary>
+            Creates a form which uses the specified client configuration.
+            </summary>
+            <param name="configuration">The configuration to use.</param>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.SelectEndpoint">
+            <summary>
+            Finds the endpoint that best matches the current settings.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.PopulateBranch(Opc.Ua.NodeId,System.Windows.Forms.TreeNodeCollection)">
+            <summary>
+            Populates the branch in the tree view.
+            </summary>
+            <param name="sourceId">The NodeId of the Node to browse.</param>
+            <param name="nodes">The node collect to populate.</param>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.DisplayAttributes(Opc.Ua.NodeId)">
+            <summary>
+            Displays the attributes and properties in the attributes view.
+            </summary>
+            <param name="sourceId">The NodeId of the Node to browse.</param>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.DeadbandFilterToText(Opc.Ua.MonitoringFilter)">
+            <summary>
+            Converts a monitoring filter to text for display.
+            </summary>
+            <param name="filter">The filter.</param>
+            <returns>The deadback formatted as a string.</returns>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.Server_ConnectMI_Click(System.Object,System.EventArgs)">
+            <summary>
+            Connects to a server.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.Server_ReconnectComplete(System.Object,System.EventArgs)">
+            <summary>
+            Disconnects from the current session.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.Session_KeepAlive(Opc.Ua.Client.Session,Opc.Ua.Client.KeepAliveEventArgs)">
+            <summary>
+            Handles a keep alive notification for a session by updating the status bar.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.MainForm_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            Cleans up when the main form closes.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.Server_DisconnectMI_Click(System.Object,System.EventArgs)">
+            <summary>
+            Disconnects from the current session.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.CertificateValidator_CertificateValidation(Opc.Ua.CertificateValidator,Opc.Ua.CertificateValidationEventArgs)">
+            <summary>
+            Prompts the user to accept an untrusted certificate.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.UrlCB_DropDown(System.Object,System.EventArgs)">
+            <summary>
+            Handles the DropDown event of the UrlCB control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.Help_ContentsMI_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the Help_ContentsMI control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.BrowseNodesTV_BeforeExpand(System.Object,System.Windows.Forms.TreeViewCancelEventArgs)">
+            <summary>
+            Fetches the children for a node the first time the node is expanded in the tree view.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.BrowseNodesTV_AfterSelect(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+            <summary>
+            Updates the display after a node is selected.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.BrowseNodesTV_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Ensures the correct node is selected before displaying the context menu.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.Browse_MonitorMI_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the Browse_MonitorMI control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.CreateMonitoredItem(Opc.Ua.NodeId,System.String)">
+            <summary>
+            Creates the monitored item.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.Browse_WriteMI_Click(System.Object,System.EventArgs)">
+            <summary>
+            Prompts the use to write the value of a varible.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.Browse_ReadHistoryMI_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the Browse_ReadHistoryMI control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.MonitoredItem_Notification(Opc.Ua.Client.MonitoredItem,Opc.Ua.Client.MonitoredItemNotificationEventArgs)">
+            <summary>
+            Updates the display with a new value for a monitored variable. 
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.Monitoring_MonitoringMode_Click(System.Object,System.EventArgs)">
+            <summary>
+            Changes the monitoring mode for the currently selected monitored items.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.Monitoring_SamplingInterval_Click(System.Object,System.EventArgs)">
+            <summary>
+            Changes the sampling interval for the currently selected monitored items.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.Monitoring_Deadband_Click(System.Object,System.EventArgs)">
+            <summary>
+            Changes the deadband for the currently selected monitored items.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.Monitoring_DeleteMI_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the Monitoring_DeleteMI control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.File_LoadMI_Click(System.Object,System.EventArgs)">
+            <summary>
+            Creates monitored items from a saved list of node ids.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.MainForm.File_SaveMI_Click(System.Object,System.EventArgs)">
+            <summary>
+            Saves the current monitored items.
+            </summary>
+        </member>
+        <member name="T:Quickstarts.TetrisClient.ReadHistoryDlg">
+            <summary>
+            Prompts the user to create a new secure channel.
+            </summary>
+        </member>
+        <member name="F:Quickstarts.TetrisClient.ReadHistoryDlg.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.ReadHistoryDlg.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.ReadHistoryDlg.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.ReadHistoryDlg.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Quickstarts.TetrisClient.ReadHistoryDlg"/> class.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.ReadHistoryDlg.ShowDialog(Opc.Ua.Client.Session,Opc.Ua.NodeId)">
+            <summary>
+            Displays the dialog.
+            </summary>
+        </member>
+        <member name="T:Quickstarts.TetrisClient.WriteValueDlg">
+            <summary>
+            Prompts the user to specify a new value and then writes it to the server.
+            </summary>
+        </member>
+        <member name="F:Quickstarts.TetrisClient.WriteValueDlg.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.WriteValueDlg.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.WriteValueDlg.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.WriteValueDlg.#ctor">
+            <summary>
+            Creates an empty form.
+            </summary>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.WriteValueDlg.ShowDialog(Opc.Ua.Client.Session,Opc.Ua.NodeId,System.UInt32)">
+            <summary>
+            Prompts the user to enter a value to write.
+            </summary>
+            <param name="session">The session to use.</param>
+            <param name="nodeId">The identifier for the node to write to.</param>
+            <param name="attributeId">The attribute being written.</param>
+            <returns>True if successful. False if the operation was cancelled.</returns>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.WriteValueDlg.ChangeType">
+            <summary>
+            Changes the value in the text box to the data type required for the write operation.
+            </summary>
+            <returns>A value with the correct type.</returns>
+        </member>
+        <member name="M:Quickstarts.TetrisClient.WriteValueDlg.OkBTN_Click(System.Object,System.EventArgs)">
+            <summary>
+            Parses the value and writes it to server. Closes the dialog if successful.
+            </summary>
+        </member>
+        <member name="T:Quickstarts.TetrisClient.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Quickstarts.TetrisClient.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Quickstarts.TetrisClient.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

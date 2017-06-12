@@ -1,0 +1,14 @@
+
+PID:6048 ************************* Logging started at 01/11/2011 10:49:27 *************************
+6048 - 10:49:27.687 Installing application.
+6048 - 10:49:27.689 Loading application configuration file. c:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Server\bin\Debug\Quickstarts.TetrisServer.Config.xml
+6048 - 10:49:29.221 Checking application instance certificate. CN=Quickstart Tetris Server, DC=bart-PC
+6048 - 10:49:29.231 Checking domains in certificate. CN=Quickstart Tetris Server, DC=bart-PC
+6048 - 10:49:29.243 Creating application instance certificate. KeySize=1024, Lifetime=300
+6048 - 10:49:29.245 Deleting application instance certificate.
+6048 - 10:49:32.755 Adding certificate to trusted peer store. StorePath=LocalMachine\UA Applications
+6048 - 10:49:32.783 Certificate created. Thumbprint=5C2F90FD07BF8953EBD75989761463111DE56B54
+6048 - 10:49:32.785 Adding certificate to trusted peer store. StorePath=LocalMachine\UA Applications
+6048 - 10:49:32.790 Adding certificate to discovery server trust list.
+6048 - 10:49:32.885 Configuring HTTP access.
+6048 - 10:49:32.970 Configuring file access.

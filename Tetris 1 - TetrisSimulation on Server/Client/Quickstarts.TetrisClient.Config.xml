@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationConfiguration
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:ua="http://opcfoundation.org/UA/2008/02/Types.xsd"
+  xmlns:s1="http://opcfoundation.org/UA/Sample/Configuration.xsd"
+  xmlns:s2="http://opcfoundation.org/UA/SDK/COM/Configuration.xsd"
+  xmlns="http://opcfoundation.org/UA/SDK/Configuration.xsd"
+>
+  <ApplicationName>Quickstart Tetris Client</ApplicationName>
+  <ApplicationUri>urn:localhost:UASDK:TetrisClient</ApplicationUri>
+  <ProductUri>http://opcfoundation.org/UASDK/TetrisClient</ProductUri>
+  <ApplicationType>Client_1</ApplicationType>
+  <SecurityConfiguration>
+    <ApplicationCertificate>
+      <StoreType>Directory</StoreType>
+      <StorePath>%CommonApplicationData%\OPC Foundation\CertificateStores\MachineDefault</StorePath>
+      <SubjectName>Quickstart Tetris Client</SubjectName>
+    </ApplicationCertificate>
+    <TrustedPeerCertificates>
+      <StoreType>Windows</StoreType>
+      <StorePath>LocalMachine\UA Applications</StorePath>
+    </TrustedPeerCertificates>
+  </SecurityConfiguration>
+  <TransportConfigurations></TransportConfigurations>
+  
+  <TransportQuotas>
+    <OperationTimeout>600000</OperationTimeout>
+    <MaxStringLength>1048576</MaxStringLength>
+    <MaxByteStringLength>1048576</MaxByteStringLength>
+    <MaxArrayLength>65535</MaxArrayLength>
+    <MaxMessageSize>4194304</MaxMessageSize>
+    <MaxBufferSize>65535</MaxBufferSize>
+    <ChannelLifetime>300000</ChannelLifetime>
+    <SecurityTokenLifetime>3600000</SecurityTokenLifetime>
+  </TransportQuotas>
+
+  <ClientConfiguration>
+    <DefaultSessionTimeout>60000</DefaultSessionTimeout>
+    <WellKnownDiscoveryUrls>
+      <ua:String>opc.tcp://{0}:4840</ua:String>
+      <ua:String>http://{0}:52601/UADiscovery</ua:String>
+      <ua:String>http://{0}/UADiscovery/Default.svc</ua:String>
+    </WellKnownDiscoveryUrls>
+    <DiscoveryServers></DiscoveryServers>
+    <EndpointCacheFilePath>Opc.Ua.SampleClient.Endpoints.xml</EndpointCacheFilePath>
+    <MinSubscriptionLifetime>10000</MinSubscriptionLifetime>
+  </ClientConfiguration>
+
+  <Extensions>
+  </Extensions>
+
+  <TraceConfiguration>
+    <OutputFilePath>%LocalApplicationData%\OPC Foundation\Logs\Quickstarts.TetrisClient.log.txt</OutputFilePath>
+    <DeleteOnLoad>true</DeleteOnLoad>
+    <TraceMasks>513</TraceMasks>
+  </TraceConfiguration>
+  
+</ApplicationConfiguration>

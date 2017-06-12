@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D9682351-440A-46EE-93B7-63FB99C2362B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Quickstarts.TetrisServer</RootNamespace>
+    <AssemblyName>Quickstarts.TetrisServer</AssemblyName>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Tetris\TetrisEventsClasses.cs" />
+    <Compile Include="Tetris\TetrisEventsConstants.cs" />
+    <Compile Include="Tetris\TetrisGame.cs" />
+    <Compile Include="TetrisServerConfiguration.cs" />
+    <Compile Include="TetrisNodeManager.cs" />
+    <Compile Include="TetrisServer.cs" />
+    <Compile Include="Namespaces.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Content Include="App.config" />
+    <Content Include="App.ico" />
+    <EmbeddedResource Include="InstallConfig.xml" />
+    <EmbeddedResource Include="Tetris\TetrisServerControlsForm.resx">
+      <DependentUpon>TetrisServerControlsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Quickstarts.TetrisServer.Config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Tetris\TetrisServerControlsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tetris\TetrisServerControlsForm.designer.cs">
+      <DependentUpon>TetrisServerControlsForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Configuration\UA Configuration Library.csproj">
+      <Project>{8AB4CB8E-E216-425D-B600-350D0B6B59CD}</Project>
+      <Name>UA Configuration Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common\Core\UA Core Library.csproj">
+      <Project>{7543AFCB-F5AF-44AF-83C9-23164474C1E9}</Project>
+      <Name>UA Core Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common\Server\UA Server Library.csproj">
+      <Project>{E16F908B-C338-4B0C-9E72-2ADAD8FB98D5}</Project>
+      <Name>UA Server Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Quickstart Library.csproj">
+      <Project>{D8D0F7BC-BD73-4BE4-98E1-7ABDECAE4C50}</Project>
+      <Name>Quickstart Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

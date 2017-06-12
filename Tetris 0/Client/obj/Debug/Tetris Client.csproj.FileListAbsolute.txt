@@ -1,0 +1,85 @@
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Quickstarts.TetrisClient.Config.xml
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Quickstarts.TetrisClient.exe.config
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Quickstarts.TetrisClient.xml
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Quickstarts.TetrisClient.exe
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Quickstarts.TetrisClient.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Opc.Ua.Client.dll
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Opc.Ua.Configuration.dll
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Opc.Ua.Core.dll
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Opc.Ua.QuickstartsLibrary.dll
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Opc.Ua.Server.dll
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Interop.NetFwTypeLib.dll
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Opc.Ua.Server.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Opc.Ua.Server.xml
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Opc.Ua.Core.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Opc.Ua.Core.xml
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Opc.Ua.Configuration.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Opc.Ua.Configuration.xml
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Opc.Ua.QuickstartsLibrary.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Opc.Ua.Client.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\bin\Debug\Opc.Ua.Client.xml
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\obj\Debug\Quickstarts.TetrisClient.MainForm.resources
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\obj\Debug\Quickstarts.TetrisClient.ReadHistoryDlg.resources
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\obj\Debug\Quickstarts.TetrisClient.WriteValueDlg.resources
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\obj\Debug\Quickstarts.TetrisClient.Properties.Resources.resources
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\obj\Debug\Tetris Client.csproj.GenerateResource.Cache
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\obj\Debug\Quickstarts.TetrisClient.exe
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris - Copy\Client\obj\Debug\Quickstarts.TetrisClient.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\obj\Debug\Quickstarts.TetrisClient.MainForm.resources
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\obj\Debug\Quickstarts.TetrisClient.ReadHistoryDlg.resources
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\obj\Debug\Quickstarts.TetrisClient.WriteValueDlg.resources
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\obj\Debug\Quickstarts.TetrisClient.Properties.Resources.resources
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\obj\Debug\Tetris Client.csproj.GenerateResource.Cache
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\obj\Debug\Quickstarts.TetrisClient.exe
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\obj\Debug\Quickstarts.TetrisClient.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Quickstarts.TetrisClient.Config.xml
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Quickstarts.TetrisClient.exe.config
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Quickstarts.TetrisClient.xml
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Quickstarts.TetrisClient.exe
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Quickstarts.TetrisClient.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Opc.Ua.Client.dll
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Opc.Ua.Configuration.dll
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Opc.Ua.Core.dll
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Opc.Ua.QuickstartsLibrary.dll
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Opc.Ua.Server.dll
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Interop.NetFwTypeLib.dll
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Opc.Ua.Server.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Opc.Ua.Server.xml
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Opc.Ua.Core.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Opc.Ua.Core.xml
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Opc.Ua.Configuration.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Opc.Ua.Configuration.xml
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Opc.Ua.QuickstartsLibrary.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Opc.Ua.Client.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris\Client\bin\Debug\Opc.Ua.Client.xml
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Quickstarts.TetrisClient.Config.xml
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Quickstarts.TetrisClient.exe.config
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Quickstarts.TetrisClient.exe
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Quickstarts.TetrisClient.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Opc.Ua.Client.dll
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Opc.Ua.Configuration.dll
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Opc.Ua.Core.dll
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Opc.Ua.QuickstartsLibrary.dll
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Opc.Ua.Server.dll
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Interop.NetFwTypeLib.dll
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Opc.Ua.Server.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Opc.Ua.Server.xml
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Opc.Ua.Core.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Opc.Ua.Core.xml
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Opc.Ua.Configuration.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Opc.Ua.Configuration.xml
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Opc.Ua.QuickstartsLibrary.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Opc.Ua.Client.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Opc.Ua.Client.xml
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\obj\Debug\Quickstarts.TetrisClient.MainForm.resources
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\obj\Debug\Quickstarts.TetrisClient.ReadHistoryDlg.resources
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\obj\Debug\Quickstarts.TetrisClient.WriteValueDlg.resources
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\obj\Debug\Quickstarts.TetrisClient.Properties.Resources.resources
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\obj\Debug\Tetris Client.csproj.GenerateResource.Cache
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\obj\Debug\Quickstarts.TetrisClient.exe
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\obj\Debug\Quickstarts.TetrisClient.pdb
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\bin\Debug\Quickstarts.TetrisClient.xml
+C:\Users\bart\AppData\Local\OPC Foundation\UA SDK\v1.1\Quickstarts\Source\Workshop\Tetris 0\Client\obj\Debug\Quickstarts.TetrisClient.TetrisFieldViewer.resources
